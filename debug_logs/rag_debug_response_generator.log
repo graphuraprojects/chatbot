@@ -156,3 +156,5 @@
 2025-12-30 19:50:30,673 - INFO - Response generated | length=37 | time=1.67s
 2025-12-30 19:52:32,567 - INFO - Generating response for query_id=2ccb33f3-9ede-4152-b3c8-5a54f4fda938 | question_len=20 | context_len=1
 2025-12-30 19:52:33,805 - INFO - Response generated | length=164 | time=1.24s
+2025-12-30 21:37:50,894 - INFO - Generating response for query_id=92956a5c-d974-4869-9560-eaee7d7e0611 | question_len=32 | context_len=1
+2025-12-30 21:37:52,926 - INFO - Response generated | length=153 | time=2.02s
