@@ -38,7 +38,7 @@ warnings.filterwarnings('ignore', message='.*deprecated-generative-ai-python.*')
 SECRET_KEY = 'django-insecure-z@r=*#4*)znd(&xd%*pbok1=1otg1coc@qy0ng2$jj0k)r9m4e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # ALLOWED_HOSTS = ['testserver', 'localhost', '127.0.0.1']
 ALLOWED_HOSTS = [
@@ -232,3 +232,7 @@ LOGGING = {
         },
     },
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://chatbot-1q9l.onrender.com',
+]
